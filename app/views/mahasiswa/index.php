@@ -4,8 +4,8 @@
 			<h3>Daftar Mahasiswa</h3>
 			<?php foreach ($data['mhs'] as $mhs) : ?>
 				<ul>
-					<li><?= $mhs['nama']; ?></li>
-					<li><?= $mhs['nrp']; ?></li>
+					<li><?= $mhs['Nama']; ?></li>
+					<li><?= $mhs['NRP']; ?></li>
 					<li><?= $mhs['email']; ?></li>
 					<li><?= $mhs['jurusan']; ?></li>
 				</ul>
